@@ -11,10 +11,13 @@
  console.log("Nemo está en la posición: " + pezPosicion)
 
  /**
-  * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos
+  *  a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
 
   
+//El -1 significa que no encuentra el elemento ya que esta escrito mal 
+//porque detecta las mayusuculas y minusculas
